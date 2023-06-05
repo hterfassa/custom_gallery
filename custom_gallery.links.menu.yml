@@ -1,0 +1,6 @@
+custom_gallery.custom_gallery_form:
+  title: 'Custom Gallery Form'
+  description: 'Add a new gallery item'
+  route_name: custom_gallery.form
+  parent: system.admin_structure
+  weight: 10

@@ -1,0 +1,15 @@
+custom_gallery.form:
+  path: '/custom-gallery/form'
+  defaults:
+    _controller: '\Drupal\custom_gallery\Controller\CustomGalleryController::customGalleryForm'
+    _title: 'Custom Gallery Form'
+  requirements:
+    _permission: 'access content'
+
+custom_gallery.item:
+  path: '/custom-gallery/{custom_gallery}'
+  defaults:
+    _controller: '\Drupal\custom_gallery\Controller\CustomGalleryController::customGalleryItem'
+    _title: 'Custom Gallery Item'
+  requirements:
+    _permission: 'access content'

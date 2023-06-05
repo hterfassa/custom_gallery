@@ -1,0 +1,5 @@
+name: 'Custom Gallery'
+type: module
+description: 'Provides a custom gallery entity.'
+package: Custom
+core_version_requirement: ^8 || ^9 || ^10
